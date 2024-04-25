@@ -1,7 +1,0 @@
-Linux Commands and Pipeline for finding:
-
-Max number -> sort -n numbers.txt | tail -n 1 
-           -> sort -n -r numbers.txt | head -n 1
-
-Min number -> sort -n numbers.txt | head -n 1
-           -> sort -n -r numbers.txt | tail -n 1
