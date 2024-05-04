@@ -1,0 +1,17 @@
+Compilation Steps
+------------------------------------
+For program.cpp
+
+1. g++ -E program.cpp -o program.i
+2. g++ -S program.i -o program.s
+3. g++ -c program.s -o program.o
+------------------------------------
+For swap.cpp
+
+1. g++ -E swap.cpp -o swap.i
+2. g++ -S swap.i -o swap.s
+3. g++ -c swap.s -o swap.o
+------------------------------------
+Linking
+
+g++ program.o swap.o -o program
